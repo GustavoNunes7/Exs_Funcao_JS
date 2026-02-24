@@ -119,31 +119,30 @@ console.log("")
 
 console.log("Ex.12")
 
+
+// function imprimirAteLimite(limite) {
+//   for (let l = 1; l <= limite; l++) {
+//     console.log(l); // 
+//   }
+// }
+// imprimirAteLimite(20); 
+
     function contarPares(){
-        let Par = 0;
-        for(let c= 1; c<=10; c++){
-            if(c % 2 === 0){
-                Par++;
+        let contador = 0;
+        for(let p=1; p <=10;p++){
+            if(p % 2 === 0){
+                contador++
             }
-        } return Par
-    }console.log(contarPares())
-console.log("")
+        } return contador
+    }
+console.log(contarPares())
 
 //---------- Exercício 13 - RESOLVER -------------------------------------
 
-// console.log("Ex.13")
+console.log("Ex.13")
 
-// function tabuada(T){
-    
-//         for(let T=1; T<=10; T++){
-//         let numero = 0;
-//         let resultado = 0;
-//         resultado = numero * 1;
-//     } return resultado
-// }
-// tabuada();
 
-// console.log("")
+console.log("")
 
 //---------- Exercício 14 - RESOLVER -------------------------------------
 
@@ -168,12 +167,15 @@ console.log("")
 //---------- Exercício 17 - RESOLVER -------------------------------------
 
 console.log("Ex.17")
- function impar(){
-    for(let i=1; i<=10; i++){
-        i = impar + 2
-    } return impar
-}
-impar();
+ function contarImpar(){
+        let contadorImpar = 0;
+        for(let I=1; I <=10;I++){
+            if(I % 2 === 1){
+                contadorImpar++
+            }
+        } return contadorImpar
+    }
+console.log(contarImpar())
 console.log("")
 
 //---------- Exercício 18-------------------------------------
