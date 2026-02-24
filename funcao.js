@@ -136,23 +136,32 @@ console.log("Ex.12")
         } return contador
     }
 console.log(contarPares())
-
-//---------- Exercício 13 - RESOLVER -------------------------------------
+console.log("")
+//---------- Exercício 13  -------------------------------------
 
 console.log("Ex.13")
 
-
+function Tabuada (numero){
+    for(let tabu =1; tabu <= 10; tabu ++){
+        console.log(numero + " x " + tabu + " = " + (numero * tabu))
+    }
+}
+console.log("Tabuada do 5:")
+Tabuada(5)
 console.log("")
 
 //---------- Exercício 14 -------------------------------------
 
 console.log("Ex.14")
-function Contagem(numeroContagem){
-    for(let Co=numeroContagem; Co >=0; Co--){
-        console.log(Co)
+
+function regressiva (numeroimprima){
+    for(let im= numeroimprima; im >=0; im--){
+        console.log(im)
     }
 }
-Contagem(10)
+
+console.log("Contagem regressiva: ")
+console.log(regressiva(10))
 
 console.log("")
 
@@ -160,10 +169,24 @@ console.log("")
 //---------- Exercício 15 - RESOLVER -------------------------------------
 console.log("Ex.15")
 
+
+
 console.log("")
 //---------- Exercício 16 - RESOLVER -------------------------------------
+
 console.log("Ex.16")
+
+function somarNumerosPares() {
+    let somaPares = 0;
+  for (let snp = 2; snp <= 10; snp += 2) {
+     somaPares += snp
+  }return somaPares
+}
+somarNumerosPares(); 
 console.log("")
+
+console.log("")
+
 //---------- Exercício 17 - RESOLVER -------------------------------------
 
 console.log("Ex.17")
