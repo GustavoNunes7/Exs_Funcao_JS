@@ -184,12 +184,14 @@ console.log("")
 
 console.log("Ex.16")
 
-function somarPares(limitee) {
+function somarNumerosPares(limitee) {
+
     let somaPares = 0;
 
-  for (let snp = 0; snp <= limitee; snp++) {
-     if(1 % 2 === 0){
-        somaPares += snp;
+  for (let s = 0; s <= limitee; s++) {
+    
+     if(s % 2 === 0){
+        somaPares += s;
      }
   }return somaPares
 }
