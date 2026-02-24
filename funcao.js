@@ -92,18 +92,17 @@ contar();
 
 console.log("")
 
-//---------- Exercício 10 - RESOLVER ??????-------------------------------------
+//---------- Exercício 10-------------------------------------
 console.log("Ex.10")
 
-
-function limite(){
-    for(let l; l<=30; l++){
-        console.log(l)
-    }
+function imprimirAteLimite(limite) {
+  for (let l = 1; l <= limite; l++) {
+    console.log(l); // 
+  }
 }
-console.log(limite(20))
-
+imprimirAteLimite(20); 
 console.log("")
+
 //---------- Exercício 11-------------------------------------
 
 console.log("Ex.11")
@@ -146,7 +145,7 @@ console.log("")
 
 // console.log("")
 
-//---------- Exercício 14-------------------------------------
+//---------- Exercício 14 - RESOLVER -------------------------------------
 
 console.log("Ex.14")
 function Contagem(){
@@ -159,14 +158,14 @@ Contagem();
 console.log("")
 
 
-//---------- Exercício 15-------------------------------------
+//---------- Exercício 15 - RESOLVER -------------------------------------
 console.log("Ex.15")
 
 console.log("")
-//---------- Exercício 16-------------------------------------
+//---------- Exercício 16 - RESOLVER -------------------------------------
 console.log("Ex.16")
 console.log("")
-//---------- Exercício 17-------------------------------------
+//---------- Exercício 17 - RESOLVER -------------------------------------
 
 console.log("Ex.17")
  function impar(){
@@ -187,4 +186,10 @@ function media (md1, md2){
 console.log("")
 //---------- Exercício 19-------------------------------------
 console.log("Ex.19")
+
+function quadrado (q1 ){
+    return q1 * q1
+}
+console.log(quadrado(20))
 console.log("")
+//---------- FIM -------------------------------------
