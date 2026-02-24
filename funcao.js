@@ -166,28 +166,38 @@ console.log(regressiva(10))
 console.log("")
 
 
-//---------- Exercício 15 - RESOLVER -------------------------------------
+//---------- Exercício 15  -------------------------------------
 console.log("Ex.15")
 
+function encontrar27(){
+    for (let e27 = 0; e27 <=100; e27++){
 
+        if(e27 === 27){
+            console.log("\n Encontrei o número 27!")
+        } 
+    } return;
+}
+console.log(encontrar27(27));
 
 console.log("")
-//---------- Exercício 16 - RESOLVER -------------------------------------
+//---------- Exercício 16  -------------------------------------
 
 console.log("Ex.16")
 
-function somarNumerosPares() {
+function somarPares(limitee) {
     let somaPares = 0;
-  for (let snp = 2; snp <= 10; snp += 2) {
-     somaPares += snp
+
+  for (let snp = 0; snp <= limitee; snp++) {
+     if(1 % 2 === 0){
+        somaPares += snp;
+     }
   }return somaPares
 }
-somarNumerosPares(); 
+console.log(somarNumerosPares(10)) 
 console.log("")
 
-console.log("")
 
-//---------- Exercício 17 - RESOLVER -------------------------------------
+//---------- Exercício 17  -------------------------------------
 
 console.log("Ex.17")
  function contarImpar(){
