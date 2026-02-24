@@ -144,15 +144,15 @@ console.log("Ex.13")
 
 console.log("")
 
-//---------- Exercício 14 - RESOLVER -------------------------------------
+//---------- Exercício 14 -------------------------------------
 
 console.log("Ex.14")
-function Contagem(){
-    for(let Co=1; Co >=10; Co++){
+function Contagem(numeroContagem){
+    for(let Co=numeroContagem; Co >=0; Co--){
         console.log(Co)
     }
 }
-Contagem();
+Contagem(10)
 
 console.log("")
 
